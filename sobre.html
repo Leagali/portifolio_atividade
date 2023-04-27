@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <style>
+    body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: darkblue;
+}
+header {
+	background-color: darkblue;
+	color: rgb(255, 255, 255);
+	padding: 1em;
+	text-align: center;
+}
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+    background-color: lightslategrey;
+    padding: 100px;
+}
+.profile-picture {
+	margin-right: 2em;
+}
+.profile-picture img {
+	border-radius: 50%;
+	display: block;
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
+.profile-info {
+	flex-grow: 1;
+}
+.profile-info h2 {
+	margin-top: 0;
+}
+.profile-info ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.profile-info li {
+	margin-bottom: 1em;
+}
+.profile-info li strong {
+	display: inline-block;
+	margin-right: 1em;
+	width: 6em;
+}
+.profile-info p {
+	margin-top: 0;
+}
+.horizontal {
+  list-style: none;
+  padding: 35px;
+  margin: 0;
+  display: flex; 
+  text-align: center;
+  justify-content: center;
+}
+.horizontal li {
+  padding: 15px;
+  margin-right: 200px;
+  margin-left: 200px;
+  border: 2px solid rgb(120, 243, 151) ; 
+  border-radius: 45%;
+  background-color: rgb(120, 243, 151);
+}
+.horizontal li:hover{
+    background-color: red;
+    border-radius: 45%;
+}
+footer {
+    background-color: darkblue;
+    margin-top: 20px;
+    margin: 0;
+	padding: 0;
+    position: fixed;
+    bottom: 0;
+}
+    </style>
+</head>
+<body>
+	<header>
+		<h1>Sobre mim</h1>
+	</header>
+	<main>
+		<section class="profile-picture">
+			<img src="https://www.alleyclub.com.br/wp-content/uploads/2016/08/quando-o-desespero-bate.gif" alt="Minha Foto de Perfil">
+		</section>
+		<section class="profile-info">
+			<h2>Informações</h2>
+			<ul>
+				<li><strong>Nome:</strong> Luiz Gustavo Lovato Lessa</li>
+				<li><strong>Idade:</strong> 17 anos</li>
+				<li><strong>País:</strong> Brasil</li>
+				<li><strong>Profissão:</strong> Estudante de ciência da computação</li>
+                <li><strong>Localização:</strong> Espirito Santo, Vila Velha</li>
+                <li><strong>Descrição:</strong>Quero desenvolver minhas habilidades e também contribuir para o sucesso da empresa. Em busca de uma oportunidade para desenvolver e melhorar meus conhecimentos, e também algo que possa me instruir de forma crescente e contínua, visando sempre o crescimento entre mim e a empresa.</li>
+			</ul>
+		</section>
+	</main>
+    <footer>
+        <ul class="horizontal">
+            <li><em><a href="contato.html">CONTATO</a></em></li>
+            <li><em><a href="serviços.html">SERVIÇOS</a></em></li>
+            <li><em><a href="index.html">HOME</a></em></li>
+          </ul>
+    </footer>
+</body>
+</html>
